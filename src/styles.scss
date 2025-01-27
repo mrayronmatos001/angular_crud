@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+// Customize the entire app. Change :root to your selector if you want to scope the styles.
+:root {
+  @include mat.paginator-overrides((
+    container-text-color: black,
+    container-background-color: white,
+    touch-target-display: black,
+    enabled-icon-color: black,
+    disabled-icon-color: #d3d3d3
+  ));
+
+  @include mat.table-overrides((
+    background-color: white,
+    row-item-label-text-color: black,
+    row-item-outline-color: transparent
+  ));
+
+  @include mat.button-overrides((
+      filled-container-color: black,
+      filled-label-text-color: black,
+      filled-disabled-container-color: black,
+      filled-disabled-label-text-color: black
+  ));
+
+  @include mat.sidenav-overrides((
+    container-width:250px
+  ));
+
+  @include mat.form-field-overrides((
+    outlined-focus-outline-color: black,
+    outlined-focus-label-text-color: black,
+    outlined-label-text-color: #2e2e2e65,
+    outlined-hover-label-text-color: #2e2e2e65,
+    outlined-input-text-color: black,
+    outlined-input-text-placeholder-color: #2e2e2e65,
+    outlined-outline-color: #2e2e2e65,
+    outlined-hover-outline-color: #2e2e2e65,
+    filled-label-display: 200px
+  ));
+
+  @include mat.dialog-overrides((
+    container-color: white,
+    subhead-color: black,
+    supporting-text-color: black
+  ));
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
