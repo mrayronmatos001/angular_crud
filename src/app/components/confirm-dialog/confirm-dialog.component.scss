@@ -1,0 +1,55 @@
+:host {
+    display: block;
+  }
+  
+  .mat-dialog-container {
+    background-color: #1a1a2e; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    border-radius: 12px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra */
+    max-width: 400px; /* Largura máxima */
+    text-align: center; /* Centralizar texto */
+  }
+  
+  h1.mat-dialog-title {
+    font-size: 1.5rem; /* Tamanho do título */
+    font-weight: bold; /* Negrito */
+    color: #e94560; /* Vermelho suave */
+    margin-bottom: 16px; /* Espaçamento abaixo do título */
+  }
+  
+  .mat-dialog-content {
+    font-size: 1rem; /* Tamanho do texto */
+    margin-bottom: 20px; /* Espaçamento abaixo do conteúdo */
+  }
+  
+  .mat-dialog-actions {
+    display: flex;
+    justify-content: space-between; /* Botões espaçados igualmente */
+    margin-top: 20px; /* Espaçamento acima */
+  }
+  
+  button.mat-button {
+    font-weight: bold; /* Negrito */
+    padding: 5px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+  }
+  
+  button.mat-button[color="warn"] {
+    background-color: #e94560; /* Vermelho para exclusão */
+    color: #fff; /* Texto branco */
+  }
+  
+  button.mat-button[color="warn"]:hover {
+    background-color: #d0344f; /* Vermelho mais escuro no hover */
+  }
+  
+  button.mat-button {
+    color: #e94560; /* Vermelho para cancelar */
+  }
+  
+  button.mat-button:hover {
+    background-color: rgba(233, 69, 96, 0.1); /* Fundo suave no hover */
+  }
+  

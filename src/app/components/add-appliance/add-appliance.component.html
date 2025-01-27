@@ -1,0 +1,25 @@
+<h1 mat-dialog-title>Adicionar Novo Produto</h1>
+<div mat-dialog-content>
+  <form #productForm="ngForm">
+    <mat-form-field class="full-width">
+      <mat-label>Cliente</mat-label>
+      <input matInput placeholder="Nome do cliente" [(ngModel)]="data.customer" name="customer" required />
+    </mat-form-field>
+    <mat-form-field class="full-width">
+      <mat-label>Produto</mat-label>
+      <input matInput placeholder="Nome do produto" [(ngModel)]="data.product" name="product" required />
+    </mat-form-field>
+    <mat-form-field class="full-width">
+      <mat-label>Status</mat-label>
+      <mat-select [(ngModel)]="data.status" name="status" required>
+        <mat-option value="Disponível">Disponível</mat-option>
+        <mat-option value="Indisponível">Indisponível</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Cancelar</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Salvar</button>
+</div>
+

@@ -1,0 +1,124 @@
+{
+  "appliances": [
+    {
+      "id": "1",
+      "customer": "João Silva",
+      "product": "Aquário 250L",
+      "status": "Indisponível"
+    },
+    {
+      "id": "2",
+      "customer": "Maria Oliveira",
+      "product": "Fogão 4 Bocas",
+      "status": "Indisponível"
+    },
+    {
+      "id": "3",
+      "customer": "Carlos Souza",
+      "product": "Máquina de Lavar 10kg",
+      "status": "Disponível"
+    },
+    {
+      "id": "4",
+      "customer": "Ana Lima",
+      "product": "Micro-ondas 20L",
+      "status": "Indisponível"
+    },
+    {
+      "id": "5",
+      "customer": "José Santos",
+      "product": "Liquidificador 1000W",
+      "status": "Disponível"
+    },
+    {
+      "id": "6",
+      "customer": "Fernanda Costa",
+      "product": "Aspirador de Pó",
+      "status": "Disponível"
+    },
+    {
+      "id": "7",
+      "customer": "Roberto Almeida",
+      "product": "Ferro de Passar Roupas",
+      "status": "Indisponível"
+    },
+    {
+      "id": "8",
+      "customer": "Patrícia Rocha",
+      "product": "Cafeteira Elétrica",
+      "status": "Disponível"
+    },
+    {
+      "id": "9",
+      "customer": "Eduardo Santos",
+      "product": "Batedeira Planetária",
+      "status": "Indisponível"
+    },
+    {
+      "id": "10",
+      "customer": "Lucas Pereira",
+      "product": "Climatizador de Ar",
+      "status": "Disponível"
+    },
+    {
+      "id": "11",
+      "customer": "Amanda Moreira",
+      "product": "Exaustor de Cozinha",
+      "status": "Disponível"
+    },
+    {
+      "id": "12",
+      "customer": "Bruno Martins",
+      "product": "Panela de Pressão Elétrica",
+      "status": "Indisponível"
+    },
+    {
+      "id": "13",
+      "customer": "Mariana Fernandes",
+      "product": "Chaleira Elétrica",
+      "status": "Disponível"
+    },
+    {
+      "id": "14",
+      "customer": "Rafael Ribeiro",
+      "product": "Máquina de Secar Roupas",
+      "status": "Disponível"
+    },
+    {
+      "id": "15",
+      "customer": "Gabriela Lopes",
+      "product": "Forno Elétrico",
+      "status": "Indisponível"
+    },
+    {
+      "id": "16",
+      "customer": "Tiago Nunes",
+      "product": "Torradeira",
+      "status": "Disponível"
+    },
+    {
+      "id": "17",
+      "customer": "Paula Dias",
+      "product": "Multiprocessador",
+      "status": "Disponível"
+    },
+    {
+      "id": "18",
+      "customer": "Ricardo Fonseca",
+      "product": "Purificador de Água",
+      "status": "Disponível"
+    },
+    {
+      "id": "19",
+      "customer": "Camila Ramos",
+      "product": "Máquina de Fazer Pão",
+      "status": "Indisponível"
+    },
+    {
+      "id": "20",
+      "customer": "Lucas Souza",
+      "product": "Smart TV 55 polegadas LG",
+      "status": "Disponível"
+    }
+  ]
+}
